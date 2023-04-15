@@ -80,7 +80,7 @@ echo "Mobil a: warna " . $a->getWarna() . ", merk " . $a->getMerk() . ", harga "
 ```
 
 2. Membuat class library dengan membuat file baru dengan nama **form.php**. 
-* Class library merupakan pustaka kode program yang dapat digunakan bersama pada beberapa file yang berbeda (konsep modularisasi). Class library menyimpan fungsi-fungsi atau class object komponen untuk memudahkan dalam proses development aplikasi.
+    * Class library merupakan pustaka kode program yang dapat digunakan bersama pada beberapa file yang berbeda (konsep modularisasi). Class library menyimpan fungsi-fungsi atau class object komponen untuk memudahkan dalam proses development aplikasi.
 
 ```
     <?php
@@ -258,11 +258,11 @@ echo "Mobil a: warna " . $a->getWarna() . ", merk " . $a->getMerk() . ", harga "
             return false;
         }
     }
-}
-?>
+    }
+    ?>
     ```
 
-### Hasil
+### Screenshot Hasil
 
 ![Gambar 1](ss/1.png)
 
